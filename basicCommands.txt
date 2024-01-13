@@ -1,0 +1,3 @@
+ceating basic images 
+
+create docker file with instructions 
