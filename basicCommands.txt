@@ -1,3 +1,24 @@
 ceating basic images 
 
-create docker file with instructions 
+create docker file with instructions
+how to copy pem file from one local machine to another local machine?
+what is diff between satndalone app and web app ? ANS- Web-based applications need an internet connection, servers, and any additional resources to run but standalone applications do not require any additional resources such as an internet connection, server, etc.
+what is difference between jar and war file? ANS- JAR files are used for packaging and distributing standalone Java applications or libraries, while WAR files are used for packaging and distributing web applications.
+what is executable form and shell form? what is meaning of database connection pull? ask to ravi
+
+docker volume 14 
+
+14.00
+if the image is already created but i want to give tag then 
+$ docker tag (image id) ECRregistrydnsname/repository:tag
+now you see here for both image imageid is same .
+
+20.00
+now whatever created image we need to push to ECR registry
+before push we need to create login pswd for ECR registry 
+for that AWS CLI need to install in our server
+24.00
+but after install and if execute that command also you will not  get pswd.
+bcoz this server doesnt have permission to communicate aws resources and manage resources and get the pswd,
+so i need to configure permissions to this server to communicate aws resources and manage resources , there are two ways here 1)IAM user 2)IAM role 
+ 
